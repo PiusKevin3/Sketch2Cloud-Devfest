@@ -1,0 +1,12 @@
+venv
+.venv
+__pycache__
+**/__pycache__
+*.pyc
+jobs.db
+jobs.db-wal
+jobs.db-shm
+uploads
+.env
+.git
+.gitignore

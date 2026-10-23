@@ -1,0 +1,30 @@
+# Secrets
+backend/.env
+.env
+.env.local
+*.token
+
+# Python
+backend/venv/
+**/__pycache__/
+*.pyc
+backend/.pytest_cache/
+
+# Local job/session state
+backend/jobs.db
+backend/jobs.db-wal
+backend/jobs.db-shm
+backend/uploads/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
+
+# Agent-generated app output (created at runtime, not source)
+workspace/
+
+# OS
+.DS_Store
+Thumbs.db
